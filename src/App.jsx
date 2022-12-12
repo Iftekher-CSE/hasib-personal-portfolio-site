@@ -11,31 +11,22 @@ import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { RouterProvider, Routes } from "react-router-dom";
+import router from "./routes/routes";
 
 const App = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 1800,
-      offset: 100,
-      disable: "mobile",
-    });
-  }, []);
-  return (
-    <div className="">
-      <Navbar />
-      <Hero />
-      <Skills />
-      <Service />
-      <Projects />
-      <Testimonials />
-      <Hireme />
-      <Contact />
-      <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
-        <p>codeaprogram © All CopyRights Reserved 2022</p>
-      </footer>
-    </div>
-  );
+    useEffect(() => {
+        Aos.init({
+            duration: 1800,
+            offset: 100,
+            disable: "mobile",
+        });
+    }, []);
+    return (
+        <div className="">
+            <RouterProvider router={router}></RouterProvider>
+        </div>
+    );
 };
 
 export default App;
