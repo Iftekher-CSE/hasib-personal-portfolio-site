@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Projects = () => {
     const { Projects } = content;
@@ -54,9 +56,12 @@ const Projects = () => {
                                 <img className="w-full" src={content.image} alt="..." />
                                 <div className="flex flex-col gap-1 mt-2">
                                     <h5 className="font-bold font-Poppins">{content.title}</h5>
-                                    <p className="text-sm font-Poppins">{content.text}</p>
-
-                                    <button className="font-bold text-gray self-end"> PROJECT DETAILS</button>
+                                    <p className="text-sm font-Poppins text-justify">{content.text}</p>
+                                    <Link to={`project/${content.title}`} className="self-end">
+                                        <button className="font-bold text-gray hover:text-dark_primary">
+                                            Show Details
+                                        </button>
+                                    </Link>
                                 </div>
                             </SwiperSlide>
                         ))}

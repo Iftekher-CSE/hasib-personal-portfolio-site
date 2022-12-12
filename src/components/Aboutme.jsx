@@ -5,7 +5,7 @@ const Aboutme = () => {
     const { Aboutme } = content;
 
     return (
-        <section className="bg-bg_light_primary pb-20">
+        <section className="bg-bg_light_primary pb-20" id="aboutme">
             <div className="md:container px-5 pt-14">
                 <h2 className="title" data-aos="fade-down">
                     {Aboutme.title}

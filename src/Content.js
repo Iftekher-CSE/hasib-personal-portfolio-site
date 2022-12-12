@@ -1,12 +1,12 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import html from "./assets/images/Skills/html5.png";
+import css from "./assets/images/Skills/css.png";
+import mongoDB from "./assets/images/Skills/mongoDB.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import C from "./assets/images/Skills/C-language.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -31,9 +31,11 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsFacebook } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
+import { BiBrain } from "react-icons/bi";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
@@ -41,12 +43,12 @@ import { MdOutlinePermContactCalendar } from "react-icons/md";
 export const content = {
     nav: [
         {
-            link: "#home",
+            link: "/",
             icon: TbSmartHome,
         },
         {
             link: "#skills",
-            icon: BiUser,
+            icon: BiBrain,
         },
         {
             link: "#services",
@@ -55,6 +57,10 @@ export const content = {
         {
             link: "#projects",
             icon: RiProjectorLine,
+        },
+        {
+            link: "#aboutme",
+            icon: BiUser,
         },
         {
             link: "#contact",
@@ -82,34 +88,35 @@ export const content = {
         subtitle: "MY TOP SKILLS",
         skills_content: [
             {
-                name: "Figma",
-                para: "Lorem ipsum text  dummy",
-                logo: figma,
+                name: "HTML5",
+                para: "Learning This skill for last one year",
+                logo: html,
             },
             {
-                name: "Node js",
-                para: "Lorem ipsum text  dummy",
-                logo: nodejs,
-            },
-            {
-                name: "Adobe Photoshop",
-                para: "Lorem ipsum text  dummy",
-                logo: ps,
+                name: "CSS",
+                para: "Learning This skill for last one year",
+                logo: css,
             },
             {
                 name: "React js",
-                para: "Lorem ipsum text  dummy",
+                para: "Learning This skill for last one year",
                 logo: reactjs,
             },
             {
-                name: "Sketch",
-                para: "Lorem ipsum text  dummy",
-                logo: sketch,
+                name: "Node js",
+                para: "Learning This skill for last one year",
+                logo: nodejs,
             },
             {
-                name: "Python",
-                para: "Lorem ipsum text  dummy",
-                logo: python,
+                name: "Mongo DB",
+                para: "Learning This skill for last one year",
+                logo: mongoDB,
+            },
+
+            {
+                name: "C Programing",
+                para: "Learning This skill for last one year",
+                logo: C,
             },
         ],
         icon: MdArrowForward,
@@ -142,28 +149,27 @@ export const content = {
         project_content: [
             {
                 title: "Truck Zone",
+                id: 1,
                 text: "This is a truck buy sell site is for both customers and seller. customer can pay for his booked truck. Admin has much authority here.",
                 image: project1,
             },
             {
                 title: "Travel Go",
+                id: 2,
                 image: project2,
                 text: "This site is build for a individual VISA service provider. He can showcase his services and manage them. His customers can post review on service.",
             },
             {
                 title: "Corporate Learning",
+                id: 3,
                 image: project3,
-                text: "This site was build for a trainer, who is focused with corporate training. Customers can show course details and download pdf copy of course details.",
+                text: "This site was build for a trainer, who is focused on corporate training. Customers can show course details and download pdf copy of course details.",
             },
             {
                 title: "Doctor Portal",
+                id: 4,
                 image: project4,
                 text: "This project was jointly build for a dentist. Patients can book treatment for selected date and time. Doctor can manage patients and other doctors.",
-            },
-            {
-                title: "Auto Service",
-                image: project5,
-                text: "This is a auto service workshop site. Customers can ger details of different services, as well as they can purchase services and products from the shop.",
             },
         ],
     },
@@ -231,6 +237,11 @@ export const content = {
                 text: "/iftekhermahmudhasib",
                 icon: BsFacebook,
                 link: "https://www.facebook.com/iftekhermahmudhasib/",
+            },
+            {
+                text: "/Iftekher-CSE",
+                icon: BsGithub,
+                link: "https://github.com/Iftekher-CSE",
             },
         ],
     },
