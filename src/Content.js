@@ -166,10 +166,10 @@ export const content = {
                 text: "This site was build for a trainer, who is focused on corporate training. Customers can show course details and download pdf copy of course details.",
             },
             {
-                title: "Doctor Portal",
+                title: "Quiz Time",
                 id: 4,
                 image: project4,
-                text: "This project was jointly build for a dentist. Patients can book treatment for selected date and time. Doctor can manage patients and other doctors.",
+                text: "This is a online quiz platform. A web developer can attend on the quiz and check knowledge level. As well as he can check the correct answer.",
             },
         ],
     },

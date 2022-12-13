@@ -1,14 +1,145 @@
 [
     {
-        "id": 1,
+        "_id": { "$oid": "63972d65fc91cf90985419c6" },
         "name": "Truck Zone",
-        "liveSite": "",
-        "clientSideLink": "",
-        "serverSideLink": "",
+        "liveSite": "https://truck-zone-6b077.web.app/",
+        "clientSideLink": "https://github.com/Iftekher-CSE/truck-zone-resale-market",
+        "serverSideLink": "https://github.com/Iftekher-CSE/truck-zone-resale-market-server",
         "ProjectBrief": "This is a truck buy sell site is for both customers and seller. customer can pay for his booked truck. Admin has much authority here.",
-        "techUsed": "",
-        "image1": "project1",
-        "image2": "project1",
-        "image3": "project1"
+        "ProjectIdea": "This Project is About Old Truck Sell",
+        "images": [
+            "https://i.ibb.co/znbX8QL/image.png, ",
+            "https://i.ibb.co/T1TkWX5/image.pngproject1",
+            "https://i.ibb.co/SB4MCJH/image.pngproject1"
+        ],
+        "KeyFeature": [
+            "A seller can post truck to sell\n",
+            "A seller can promote his truck, promoted items will show in home page\n",
+            "A seller can delete any product from list\n",
+            "An user can find truck based on three category\n",
+            "An user can see details of sales post and book a product\n",
+            "An user can pay for booked vehicles\n",
+            "An user can report product to admin\n",
+            "An admin can see all seller and buyer(user) list\n",
+            "An admin can make other admin\n",
+            "An admin can delete any reported products\n"
+        ],
+        "TechnologyUsed": [
+            "HTML",
+            "TailWind used as CSS Library\n",
+            "daisyui used as Tailwind CSS component library\n",
+            "ReactJS used as JavaScript Library\n",
+            "React Router DOM, Context API etc. used in react\n",
+            "Google firebase is used for user authentication and live site deploy\n",
+            "react-icons are used for different icons used in the site\n",
+            "Mongo DB is used as cloud db with full CRUD operation\n",
+            "JWT is used for authorization of users\n",
+            "STRIPE is used as payment get-way\n",
+            "env variables are used to protect secret code\n",
+            "vercel is used to deploy served side.\n"
+        ],
+        "duration": "1 week",
+        "status": "On Going"
+    },
+    {
+        "name": "Travel Go",
+        "liveSite": "https://travel-go-ad253.web.app/",
+        "clientSideLink": "https://github.com/Iftekher-CSE/travel-go-clientt",
+        "serverSideLink": "https://github.com/Iftekher-CSE/travel-go-server",
+        "ProjectBrief": "This site is build for a individual VISA service provider. He can showcase his services and manage them. His customers can post review on service.",
+        "ProjectIdea": "VISA service provider",
+        "images": [
+            "https://i.ibb.co/Mp58zq6/image.png",
+            "https://i.ibb.co/BtkZjRM/image.png",
+            "https://i.ibb.co/2gYHTY6/image.png",
+            "https://i.ibb.co/tcX0Dss/image.png",
+            "https://i.ibb.co/dpzXWRL/image.png"
+        ],
+        "KeyFeature": [
+            "Get Information about different services of travel agent\n",
+            "User can add new services based on requirement\n",
+            "Customers can post their review and see others review for different services\n",
+            "Customers can delete and edit review for his logged in account\n",
+            "customer can login by registration or by buy using google account\n",
+            "One can red related blogs\n",
+            "on all service page one can click on image to seed big image\n"
+        ],
+        "TechnologyUsed": [
+            "HTML",
+            "TailWind used as CSS Library\n",
+            "daisyui used as Tailwind CSS component library\n",
+            "ReactJS used as JavaScript Library\n",
+            "React Router DOM, Context API etc. used in react\n",
+            "Google firebase is used for user authentication and live site deploy\n",
+            "react-icons are used for different icons used in the site\n",
+            "Mongo DB is used as cloud db with full CRUD operation\n",
+            "JWT is used for authorization of users\n"
+        ],
+        "duration": "3 days",
+        "status": "Finished"
+    },
+    {
+        "name": "Corporate Learning",
+        "liveSite": "https://corporate-learning-assign.web.app/",
+        "clientSideLink": "https://github.com/Iftekher-CSE/corporate-learning-client",
+        "serverSideLink": "https://github.com/Iftekher-CSE/Corporate-learning-server",
+        "ProjectBrief": "This site was build for a trainer, who is focused on corporate training. Customers can show course details and download pdf copy of course details.",
+        "ProjectIdea": "Online Training Provide",
+        "images": [
+            "https://i.ibb.co/CVGWVKd/image.png",
+            "https://i.ibb.co/b5sdNYR/image.png",
+            "https://i.ibb.co/7Yn9qz0/image.png",
+            "https://i.ibb.co/YfDkskz/image.png",
+            "https://i.ibb.co/cFBt7zG/image.png"
+        ],
+        "KeyFeature": [
+            "Trainer can add and manage courses\n",
+            "A user can see details of course\n",
+            "A user can download pdf of course details\n",
+            "User can take premium access to course\n"
+        ],
+        "TechnologyUsed": [
+            "HTML",
+            "TailWind used as CSS Library\n",
+            "daisyui used as Tailwind CSS component library\n",
+            "ReactJS used as JavaScript Library\n",
+            "React Router DOM, Context API etc. used in react\n",
+            "Google firebase is used for user authentication and live site deploy\n",
+            "react-icons are used for different icons used in the site\n"
+        ],
+        "duration": "2 days",
+        "status": "Finished"
+    },
+    {
+        "name": "Quiz Time",
+        "liveSite": "https://luxury-jelly-679c29.netlify.app/",
+        "clientSideLink": "https://github.com/Iftekher-CSE/quiz-time-onlineQuiz",
+        "serverSideLink": "https://github.com/Iftekher-CSE/quiz-time-onlineQuiz",
+        "ProjectBrief": "This is a online quiz platform. A web developer can attend on the quiz and check knowledge level. As well as he can check the correct answer.",
+        "ProjectIdea": "Online Training Provide",
+        "images": [
+            "https://i.ibb.co/CVGWVKd/image.png",
+            "https://i.ibb.co/b5sdNYR/image.png",
+            "https://i.ibb.co/7Yn9qz0/image.png",
+            "https://i.ibb.co/YfDkskz/image.png",
+            "https://i.ibb.co/cFBt7zG/image.png"
+        ],
+        "KeyFeature": [
+            "Trainer can add and manage courses\n",
+            "A user can see details of course\n",
+            "A user can download pdf of course details\n",
+            "User can take premium access to course\n"
+        ],
+        "TechnologyUsed": [
+            "HTML",
+            "TailWind used as CSS Library\n",
+            "daisyui used as Tailwind CSS component library\n",
+            "ReactJS used as JavaScript Library\n",
+            "React Router DOM, Context API etc. used in react\n",
+            "Google firebase is used for user authentication and live site deploy\n",
+            "react-icons are used for different icons used in the site\n"
+        ],
+        "duration": "2 days",
+        "status": "Finished"
     }
 ]
